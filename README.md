@@ -71,7 +71,7 @@ python -m spacy download es_core_news_sm
 ### 6. Registrar el entorno como kernel de Jupyter
 
 ```bash
-python -m ipykernel install --user --name pnlt_venv --display-name "Python (NLP)"
+python -m ipykernel install --user --name .venv --display-name "Python (PNLT)"
 ```
 
 ### 7. Abrir Jupyter Notebook
