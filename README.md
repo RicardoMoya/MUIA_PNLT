@@ -20,6 +20,8 @@ Repositorio de materiales didácticos de la asignatura **Procesamiento del Lengu
 | `10_LSI_ejemplo_basico.ipynb` | Latent Semantic Index/Analysis (LSI): teoría y ejemplo básico con Gensim |
 | `11_LDA_ejemplo_basico.ipynb` | Latent Dirichlet Allocation (LDA): teoría y ejemplo básico con Gensim |
 | `12_LDA_Topic_Modeling_ejemplo_noticias.ipynb` | Topic Modeling con LDA sobre un corpus de noticias: selección del número óptimo de temas mediante coherencia |
+| `13_Ejemplo_embeddings_preentrenados.ipynb` | Embeddings preentrenados (NNLM) con TensorFlow Hub: vectorización de palabras y similitud semántica |
+| `14_busqueda_semantica_embeddings.ipynb` | Búsqueda semántica con embeddings preentrenados: normalización ligera, comparación de modelos de 50 y 128 dimensiones |
 
 ---
 

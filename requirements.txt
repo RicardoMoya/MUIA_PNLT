@@ -10,3 +10,6 @@ spacy>=3.7,<4.0
 emoji>=2.0
 pyLDAvis>=3.4
 seaborn>=0.13
+tensorflow>=2.16
+tensorflow-hub>=0.16
+setuptools<81  # tensorflow-hub depende de pkg_resources, eliminado en setuptools>=81
