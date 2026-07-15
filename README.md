@@ -22,6 +22,10 @@ Repositorio de materiales didácticos de la asignatura **Procesamiento del Lengu
 | `12_LDA_Topic_Modeling_ejemplo_noticias.ipynb` | Topic Modeling con LDA sobre un corpus de noticias: selección del número óptimo de temas mediante coherencia |
 | `13_Ejemplo_embeddings_preentrenados.ipynb` | Embeddings preentrenados (NNLM) con TensorFlow Hub: vectorización de palabras y similitud semántica |
 | `14_busqueda_semantica_embeddings.ipynb` | Búsqueda semántica con embeddings preentrenados: normalización ligera, comparación de modelos de 50 y 128 dimensiones |
+| `15_MLP_BoW_clasificacion_textos.ipynb` | Clasificación de sentimiento de críticas de cine con un Perceptrón Multicapa (TensorFlow-Keras) sobre Bag of Words |
+| `16_MLP_Embeddings_clasificacion_textos.ipynb` | Mismo problema que el notebook 15, sustituyendo Bag of Words por un embedding preentrenado (`nnlm-es-dim128`) como primera capa de la red |
+| `17_LSTM_Embeddings_clasificacion_textos.ipynb` | Mismo problema que los notebooks 15 y 16, sustituyendo el MLP por una LSTM bidireccional para aprovechar el orden de las palabras, con una matriz de embeddings por palabra construida a partir de `nnlm-es-dim128` |
+| `18_Transformer_Embeddings_clasificacion_textos.ipynb` | Mismo problema que los notebooks 15, 16 y 17, sustituyendo la LSTM por bloques Transformer construidos desde cero (codificación posicional, autoatención multicabeza y red *feed-forward*) sobre la misma matriz de embeddings por palabra de `nnlm-es-dim128` |
 
 ---
 
